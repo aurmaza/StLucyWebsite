@@ -1,0 +1,62 @@
+
+/* General */
+#General {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+#General .inform-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+#General .inform-box {
+  background: #dcdceb;
+  text-align: center;
+  padding: 1.2em;
+}
+#General .inform-box i {
+  font-size: 2.3rem;
+  color: rgb(44, 44, 80);
+}
+#General .inform-box h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(46, 46, 59);
+  padding: 1px 0 7px 0;
+}
+#General .inform-box p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(70, 70, 87);
+}
+#General a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#General a.blue {
+  color: #fff;
+  background-color: rgb(21, 21, 100);
+}
+#General a.blue:hover {
+  color: rgb(21, 21, 100);
+  background-color: #fff;
+}
+
+#Welcome .WelcomeC h1 .WelcomeH {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  padding: 8vw;
+}
+.mask-custom {
+  backdrop-filter: blur(4px);
+  background-color: rgba(178, 60, 253, 0);
+}
