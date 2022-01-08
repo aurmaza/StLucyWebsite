@@ -5,10 +5,10 @@ body {
 @keyframes transitionIn {
   from {
     opacity: 0;
-    transform: rotateZ(-5deg);
+    transform: rotateX(-10deg);
   }
   to {
     opacity: 1;
-    transform: rotateZ(0);
+    transform: rotateX(0);
   }
 }
