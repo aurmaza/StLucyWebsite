@@ -1,7 +1,7 @@
-
 /* General */
 #General {
-  padding: 5vw 8vw 0 8vw;
+  /* padding: 5vw 8vw 5vw 8vw; */
+  padding: 5vw 8vw 5vw 8vw;
   text-align: center;
 }
 #General .inform-cards {
@@ -14,6 +14,8 @@
   background: #dcdceb;
   text-align: center;
   padding: 1.2em;
+  display: flex;
+  flex-direction: column;
 }
 #General .inform-box i {
   font-size: 2.3rem;
@@ -37,6 +39,7 @@
   background-color: #fff;
   font-weight: 600;
   border-radius: 5px;
+  margin-top: auto;
 }
 
 #General a.blue {
@@ -54,7 +57,7 @@
 
 /* Footer */
 footer {
-  padding: 8vw;
+  padding: 4vw;
 }
 .mask-custom {
   backdrop-filter: blur(4px);

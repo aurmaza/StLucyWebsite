@@ -9,11 +9,12 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/transition.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
         style="box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.15)">
         <a href="index.html" class="navbar-brand"><img src="img/FullLogo.png" width="100" alt=""></a>
@@ -30,209 +31,184 @@
         </div>
 
     </nav>
-    <div class="Animation">
+    <!-- Picture -->
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6"> <img src="img/BenFiles.JPG" class="img-fluid" alt=""></div>
+
+        </div>
+    </div>
+
+
+    <!-- Patient Portal, COVID Policy -->
+    <section class="forms-portal">
+
         <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-6"> <img src="img/BenFiles.JPG" class="img-fluid" alt=""></div>
+            <div class="row align-items-center justify-content-between">
+
+
+                <div class="col-md-8 p-5">
+                    <h2 id="covid-19-p">COVID-19 Policy</h2>
+                    <hr>
+                    <p>Since the beginning of the COVID19 pandemic, St. Lucy’s Eye Care Center has consistently
+                        maintained safety measures to ensure a safe and healthy environment for our patients and
+                        staff.
+
+
+                    </p>
+                    <p class="lead">Our Saftey Protocols Include</p>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Temperature screening</li>
+                        <li class="list-group-item">Required mask wearing for all patients and companions who come
+                            in
+                            our office as well as our staff members
+                        </li>
+                        <li class="list-group-item">Complete disinfection of equipment in between patients</li>
+                        <li class="list-group-item">For social distancing, our appointments are spread out so there
+                            are
+                            less patients in the waiting room. </li>
+                        <li class="list-group-item">Frequent cleaning of office facilities
+                        </li>
+                        <li class="list-group-item">Hand sanitizer stations available throughout office
+                        </li>
+                        <li class="list-group-item">Patients will only be seen by Dr. Urmaza for treatment,
+                            diagnostic
+                            testing, procedures, and vision services. He is his own tech, with the exception of
+                            visual
+                            field tests. Seeing only one provider minimizes potential exposure.
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 p-5">
+                    <h2 id="patient-forms">Patient Forms</h2>
+                    <p class="lead">Please download, fill out and bring the completed forms to your visit.</p>
+                    <div class="list-group">
+                        <a href="pdf/Glasses Contact Lens Policy (1).pdf"
+                            class="list-group-item list-group-item-action">Glasses & Contact Lens Policy</a>
+                        <a href="pdf/Kin and Emergency Contact Form.docx"
+                            class="list-group-item list-group-item-action">Kin and Emergency Contact Form</a>
+                        <a href="pdf/Patient Demographics and Financial Policy Form.pdf"
+                            class="list-group-item list-group-item-action">Patient Demographics Form</a>
+                        <a href="pdf/Patient History Form.pdf" class="list-group-item list-group-item-action">Patient
+                            History Form</a>
+                        <br>
+                        <h2>Patient Portal</h2>
+                        <a href="https://portal.eyereachpatients.com/Patients/stlucy/Account/LogOn?ReturnUrl=%2fPatients%2fstlucy"
+                            class="btn btn-warning " role="button">Access Secure Patient Portal</a>
+                    </div>
+                </div>
+
 
             </div>
+
+
         </div>
-        <!-- Patient Portal, COVID Policy -->
-        <section class="forms-portal">
+    </section>
+    <div class="container p-3">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6"> <img src="img/DonnaSally.JPG" class="img-fluid" alt=""></div>
 
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
+        </div>
+    </div>
+    <!-- Resources -->
+    <section id="resources">
+        <h1>General Information</h1>
 
+        <div class="inform-cards">
+            <div class="inform-box">
+                <i class="bi bi-info-circle"></i>
+                <h3>Glaucoma</h3>
 
-                    <div class="col-md-8 p-5">
-                        <h2>COVID-19 Policy</h2>
-                        <hr>
-                        <p>Since the beginning of the COVID19 pandemic, St. Lucy’s Eye Care Center has consistently
-                            maintained safety measures to ensure a safe and healthy environment for our patients and
-                            staff.
+                <a class="blue"
+                    href="https://www.aao.org/eye-health/diseases/what-is-glaucoma?gclid=CjwKCAiA5t-OBhByEiwAhR-hmwlT0A92fKf6V4g6ePWqJdd8QV2H0-yqJDwfXUxugiJ8Q3dFrBmdCRoCelEQAvD_BwE">Learn
+                    More</a>
+            </div>
+            <div class="inform-box">
+                <i class="bi bi-info-circle-fill"></i>
+                <h3>Macular degeneration</h3>
 
+                <a class="blue"
+                    href="https://www.aao.org/eye-health/diseases/amd-macular-degeneration?ada=0&gclid=CjwKCAiA5t-OBhByEiwAhR-hm835RBSbrreBu63qADAmBcU2hbGr1ieec6eXoPjnJmmPedSKzG_irhoCbp4QAvD_BwE">Learn
+                    More</a>
+            </div>
+            <div class="inform-box">
+                <i class="bi bi-info-circle"></i>
+                <h3>Diabetic Retinopathy</h3>
+                <a class="blue" href="https://www.aao.org/eye-health/diseases/what-is-diabetic-retinopathy">Learn
+                    More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            St. Lucy's Eye Care Center
+                        </h4>
+                        <h4>Hours (Closed for Lunch 12-1pm)</h4>
+                        <p>Monday: 9am-5pm</p>
+                        <p>Tuesday: 9am-1pm</p>
+                        <p>Wednesday-Friday: 9am-5pm</p>
+                        <p>
 
                         </p>
-                        <p class="lead">Our Saftey Protocols Include</p>
-
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Temperature screening</li>
-                            <li class="list-group-item">Required mask wearing for all patients and companions who come
-                                in
-                                our office as well as our staff members
-                            </li>
-                            <li class="list-group-item">Complete disinfection of equipment in between patients</li>
-                            <li class="list-group-item">For social distancing, our appointments are spread out so there
-                                are
-                                less patients in the waiting room. </li>
-                            <li class="list-group-item">Frequent cleaning of office facilities
-                            </li>
-                            <li class="list-group-item">Hand sanitizer stations available throughout office
-                            </li>
-                            <li class="list-group-item">Patients will only be seen by Dr. Urmaza for treatment,
-                                diagnostic
-                                testing, procedures, and vision services. He is his own tech, with the exception of
-                                visual
-                                field tests. Seeing only one provider minimizes potential exposure.
-                            </li>
-                        </ul>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Quick Links
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="about.html#benedict-urmaza" class="text-reset">Our Doctor</a>
+                        </p>
+                        <p>
+                            <a href="contact.html#contactInfo" class="text-reset">Contact</a>
+                        </p>
+                        <a href="contact.html#google-map" class="text-reset">Directions</a>
+                        </p>
+                        <p>
 
                     </div>
-                    <div class="col-md-4 p-5">
-                        <h2 id="patient-forms">Patient Forms</h2>
-                        <p class="lead">Please download, fill out and bring the completed forms to your visit.</p>
-                        <div class="list-group">
-                            <a href="pdf/Glasses Contact Lens Policy (1).pdf"
-                                class="list-group-item list-group-item-action">Glasses & Contact Lens Policy</a>
-                            <a href="pdf/Kin and Emergency Contact Form.docx"
-                                class="list-group-item list-group-item-action">Kin and Emergency Contact Form</a>
-                            <a href="pdf/Patient Demographics and Financial Policy Form.pdf"
-                                class="list-group-item list-group-item-action">Patient Demographics Form</a>
-                            <a href="pdf/Patient History Form.pdf"
-                                class="list-group-item list-group-item-action">Patient
-                                History Form</a>
-                            <br>
-                            <h2>Patient Portal</h2>
-                            <a href="https://portal.eyereachpatients.com/Patients/stlucy/Account/LogOn?ReturnUrl=%2fPatients%2fstlucy"
-                                class="btn btn-warning " role="button">Access Secure Patient Portal</a>
-                        </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="bi bi-building"></i></i> 887 Church St, Bohemia, NY 11716</p>
+
+                        <p><i class="bi bi-telephone-fill"></i></i> (631)589-2535 </p>
+                        <p><i class="bi bi-printer-fill"></i></i> (631)589-2509</p>
                     </div>
-
-
+                    <!-- Grid column -->
                 </div>
-
-
+                <!-- Grid row -->
             </div>
+            <div class="container text-center">
+                <p>Website created by Alex Urmaza using HTML5, CSS, JS & Bootstrap</p>
+                <a href="https://www.linkedin.com/in/aurmaza/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/aurmaza"><i class="bi bi-github"></i></a>
+              
+            </div>
+
         </section>
-        <div class="container p-3">
-            <div class="row justify-content-md-center">
-                <div class="col-md-6"> <img src="img/DonnaSally.JPG" class="img-fluid" alt=""></div>
+    </footer>
 
-            </div>
-        </div>
-        <!-- Organizations -->
-        <section class="organizations">
-            <div class="container">
-                <h1 class="text-center">Organizations</h1>
-                <hr>
-                <br>
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://www.acb.org/sites/default/files/ACB%20New%20Logo%202017.png" alt=""
-                                class="card-img-top">
-                            <h5 class="card-title">American Foundation for the Blind</h5>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-                                    unde
-                                    necessitatibus, ipsam velit alias, sunt dicta ratione a nulla consequatur corporis
-                                    laudantium, libero modi minima iste molestiae quia odio doloremque!</p>
-                                <a href="https://www.acb.org/contact" class="btn btn-secondary">Learn More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://www.acb.org/sites/default/files/ACB%20New%20Logo%202017.png" alt=""
-                                class="card-img-top">
-                            <h5 class="card-title">American Foundation for the Blind</h5>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-                                    unde
-                                    necessitatibus, ipsam velit alias, sunt dicta ratione a nulla consequatur corporis
-                                    laudantium, libero modi minima iste molestiae quia odio doloremque!</p>
-                                <a href="https://www.acb.org/contact" class="btn btn-secondary">Learn More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://www.acb.org/sites/default/files/ACB%20New%20Logo%202017.png" alt=""
-                                class="card-img-top">
-                            <h5 class="card-title">American Foundation for the Blind</h5>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-                                    unde
-                                    necessitatibus, ipsam velit alias, sunt dicta ratione a nulla consequatur corporis
-                                    laudantium, libero modi minima iste molestiae quia odio doloremque!</p>
-                                <a href="https://www.acb.org/contact" class="btn btn-secondary">Learn More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br>
-
-        <footer>
-            <hr>
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h4 class="text-uppercase fw-bold mb-4">
-                                St. Lucy's Eye Care Center
-                            </h4>
-                            <h4>Hours</h4>
-                            <p>Monday: 9am-2pm</p>
-                            <p>Tuesday: 9am-1pm</p>
-                            <p>Wednesday-Friday: 9am-5pm</p>
-                            <p>
-
-                            </p>
-                        </div>
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Quick Links
-                            </h6>
-                            <p>
-                                <a href="index.html" class="text-reset">Home</a>
-                            </p>
-                            <p>
-                                <a href="about.html#benedict-urmaza" class="text-reset">Our Doctor</a>
-                            </p>
-                            <p>
-                                <a href="contact.html#contactInfo" class="text-reset">Contact</a>
-                            </p>
-                            <a href="contact.html#google-map" class="text-reset">Directions</a>
-                            </p>
-                            <p>
-
-                        </div>
-
-
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Contact
-                            </h6>
-                            <p><i class="bi bi-building"></i></i> 887 Church St, Bohemia, NY 11716</p>
-
-                            <p><i class="bi bi-telephone-fill"></i></i> 631-589-2535 </p>
-                            <p><i class="bi bi-printer-fill"></i></i> 631-589-2509</p>
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
-                </div>
-                <div class="container text-center">
-                    <p>Website created by Alex Urmaza using HTML5, CSS, JS & Bootstrap</p>
-                    <a href="https://www.linkedin.com/in/aurmaza/"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://github.com/aurmaza"><i class="bi bi-github"></i></a>
-                    <a href=""></a>
-                </div>
-
-            </section>
-        </footer>
-    </div>
 
 
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
