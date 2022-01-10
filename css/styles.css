@@ -39,7 +39,7 @@
   background-color: #fff;
   font-weight: 600;
   border-radius: 5px;
-  margin-top: auto;
+  margin-top:auto;
 }
 
 #General a.blue {
@@ -57,7 +57,7 @@
 
 /* Footer */
 footer {
-  padding: 4vw;
+  padding: 8vw;
 }
 .mask-custom {
   backdrop-filter: blur(4px);
