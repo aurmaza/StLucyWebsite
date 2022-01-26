@@ -57,7 +57,7 @@
 
 /* Footer */
 footer {
-  padding: 8vw;
+  padding-top: 8vw;
 }
 .mask-custom {
   backdrop-filter: blur(4px);
