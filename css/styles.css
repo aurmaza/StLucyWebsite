@@ -63,3 +63,19 @@ footer {
   backdrop-filter: blur(4px);
   background-color: rgba(178, 60, 253, 0);
 }
+
+@keyframes flashing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.alert-flashing {
+  animation: flashing 3s infinite;
+}
